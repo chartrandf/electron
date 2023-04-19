@@ -133,7 +133,7 @@ index bbd2aa78722fc0a14ac815ca0243b83965ad8d7c..b6e0a2fce3a0fb9c449aa1bef6a0f970
        const GURL& document_url,
        const WeakDocumentPtr& weak_document_ptr,
 diff --git a/content/browser/renderer_host/render_process_host_impl.cc b/content/browser/renderer_host/render_process_host_impl.cc
-index a2d47ffbf20d15e2f211049d62fe691ea61ca9f8..2971e719224d0e23254b39bd7faec79529e1e9cd 100644
+index c1f1878387b3b38d4fa9109ff81eec86381263a0..d1765a002244f888870549097d4e4230f1823d1b 100644
 --- a/content/browser/renderer_host/render_process_host_impl.cc
 +++ b/content/browser/renderer_host/render_process_host_impl.cc
 @@ -2122,7 +2122,7 @@ void RenderProcessHostImpl::CreateNotificationService(
@@ -176,10 +176,10 @@ index d9e36712dc3fbc6a9043e2c33660090ca2f7367b..7d910583eb22fc315eb0619febe518d5
        const GURL& origin,
        const GURL& document_url,
 diff --git a/content/test/mock_platform_notification_service.cc b/content/test/mock_platform_notification_service.cc
-index b3ef5af4450b3f96787bc3f9935dfdf19ebaaa94..6a4309070e0f6eaa743deefb0aeb2d0be558a787 100644
+index 56b56dff38b6f0e6a2967e10462667e0a8ead6ce..85a1894767df7026388e0486f96d9ddb602391e4 100644
 --- a/content/test/mock_platform_notification_service.cc
 +++ b/content/test/mock_platform_notification_service.cc
-@@ -29,6 +29,7 @@ MockPlatformNotificationService::MockPlatformNotificationService(
+@@ -28,6 +28,7 @@ MockPlatformNotificationService::MockPlatformNotificationService(
  MockPlatformNotificationService::~MockPlatformNotificationService() = default;
  
  void MockPlatformNotificationService::DisplayNotification(
